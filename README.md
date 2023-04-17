@@ -26,6 +26,21 @@ Replace require("@louislam/sqlite") in your source code
 
 https://github.com/TryGhost/node-sqlite3
 
+## (For User)
+
+### Sequelize Support
+
+```ts
+const sequelize = new Sequelize({
+  dialect: 'sqlite',
+  dialectModule: require('@louislam/sqlite3'),
+  storage: 'db/database.sqlite',
+  logging: (msg) => serverLog.debug(msg),
+});
+```
+
+Add dialectModule into the Sequelize initialization like this, and you're ready to go.
+
 ## (For Maintainers/Developers Only) 
 
 ###Prepare Prebuilt
