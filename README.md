@@ -28,7 +28,7 @@ https://github.com/TryGhost/node-sqlite3
 
 ## (For Maintainers/Developers Only) 
 
-###Prepare Prebuilt
+### Prepare Prebuilt
 
 #### glibc & musl
 
