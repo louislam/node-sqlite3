@@ -1,10 +1,12 @@
-# node-sqlite3 with CentOS 7 support
+# node-sqlite3 with ARMv7 and CentOS 7 support
 
 Mainly used for my another project - [Uptime Kuma](https://github.com/louislam/uptime-kuma)
 
 ## What is the different between TryGhost/node-sqlite3?
 
-The official one is dropped the support for CentOS 7, but my fork supports CentOS 7. 
+The official one is dropped the support for CentOS 7, but my fork supports CentOS 7.
+
+This fork also provides ARMv7 prebuilt.
 
 If you want to build a Node.js application which can be installed on many Linux distributions like Uptime Kuma, this library should be useful.
 
